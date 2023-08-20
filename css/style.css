@@ -171,3 +171,95 @@ body {
   color: #cf711f;
   font-weight: 700;
 }
+
+/**************** LogIn**********************/
+
+.auth {
+  background-color: #f9f6f4;
+}
+
+#loginForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  width: 40%;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group .input-group {
+  height: 80px;
+}
+
+.form-group .input-group .input-group-text {
+  height: 80%;
+}
+
+.form-control {
+  height: 80%;
+}
+#logo {
+  display: inline-block;
+}
+#logoDiv {
+  text-align: center;
+}
+.welcomText {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+#loginButton {
+  height: 40px;
+  background-color: #e8852e;
+  border-color: #e8852e;
+  transition: all 0.3s;
+  &:hover {
+    background-color: #ba6a25;
+    color: #ffffff;
+    border-color: #ba6a25;
+  }
+}
+.btn {
+  color: #ed9d58;
+  transition: all 0.3s;
+  &:hover {
+    color: #ba6a25;
+  }
+}
+/**************** SignUp**********************/
+#signupForm {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 200px 20px;
+}
+
+#signupBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#signupButton {
+  height: 40px;
+  background-color: #e8852e;
+  border-color: #e8852e;
+  transition: all 0.3s;
+  &:hover {
+    background-color: #ba6a25;
+    color: #ffffff;
+    border-color: #ba6a25;
+  }
+}

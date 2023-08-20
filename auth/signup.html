@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
+    />
+    <title>Signup</title>
+  </head>
+  <body class="auth" id="signupBody">
+    <div class="container" id="signupForm">
+      <div class="card">
+        <article class="card-body">
+          <div id="logoDiv">
+            <img
+              id="logo"
+              class="logo"
+              src="../img/omnifood-logo.png"
+              alt="omni food logo"
+            />
+          </div>
+
+          <hr />
+          <p class="welcomText">Create an Account</p>
+          <form>
+            <div class="form-row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">
+                        <i class="fa fa-user"></i>
+                      </span>
+                    </div>
+                    <input
+                      name="firstName"
+                      class="form-control"
+                      placeholder="First Name"
+                      type="text"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">
+                        <i class="fa fa-user"></i>
+                      </span>
+                    </div>
+                    <input
+                      name="lastName"
+                      class="form-control"
+                      placeholder="Last Name"
+                      type="text"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="fa fa-phone"></i>
+                  </span>
+                </div>
+                <input
+                  name="phoneNumber"
+                  class="form-control"
+                  placeholder="Phone Number"
+                  type="tel"
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="fa fa-envelope"></i>
+                  </span>
+                </div>
+                <input class="form-control" placeholder="Email" type="email" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="fa fa-lock"></i>
+                  </span>
+                </div>
+                <input
+                  class="form-control"
+                  placeholder="Password"
+                  type="password"
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <button
+                id="signupButton"
+                type="submit"
+                class="btn btn-primary btn-block"
+                style="font-size: 12px; font-weight: 600"
+              >
+                Signup
+              </button>
+            </div>
+
+            <p class="text-center" style="font-size: 16px">
+              Already have an account?
+              <a href="login.html" class="btn">Login</a>
+            </p>
+          </form>
+        </article>
+      </div>
+    </div>
+  </body>
+</html>
